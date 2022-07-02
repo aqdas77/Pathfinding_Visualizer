@@ -1,0 +1,92 @@
+
+.grid{
+    margin: 20px 0 0;
+    
+    background-color: rgb(252, 249, 249);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    background-color: rgb(37, 103, 183);
+}
+button{
+    margin-top: 4px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.tut{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 6vh;
+    background-color: rgb(86, 191, 230);
+    
+}
+.startnode {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vh;
+   
+}
+.endnode{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vh;
+    
+}
+.wall{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vh;
+  
+}
+.shortestpath{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vh;
+   
+}
+
+.startbox{
+    height: 3vh;
+    width: 3vh;
+    margin-left: 10px;
+    background-color: green;
+}
+.endbox{
+    height: 3vh;
+    width: 3vh;
+    margin-left: 10px;
+    background-color: red;
+}
+.wallbox{
+    height: 3vh;
+    width: 3vh;
+    margin-left: 10px;
+    background-color: rgb(15, 52, 68);
+}
+.shortbox{
+    height: 3vh;
+    width: 3vh;
+    margin-left: 10px;
+    background-color: yellow;
+}
+.inputboxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h3{
+    margin-right: 10px;
+    color: rgb(55, 53, 53);
+}
